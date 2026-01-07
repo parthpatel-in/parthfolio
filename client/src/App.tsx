@@ -132,9 +132,9 @@ const Home = () => (
   <Section id="home">
     <div className="flex flex-col gap-6">
       <span className="text-3xl">Hi 👋</span>
-      <h2 className="text-5xl font-bold md:text-7xl">I am a,</h2>
+      <h3 className="text-4xl font-bold md:text-7xl">I am a,</h3>
      <div className="flex items-center gap-2">
-  <h1 className="text-4xl font-bold text-primary md:text-6xl">
+  <p className="text-3xl font-bold text-primary md:text-6xl">
     <Typewriter
       words={["Parth-patel", "MERN developer",]}
       loop={true}
@@ -146,7 +146,7 @@ const Home = () => (
       deleteSpeed={50}
       delaySpeed={2000}
     />
-  </h1>
+  </p>
 
   <span className="h-12 w-1 animate-pulse bg-primary md:h-16"></span>
 </div>
@@ -554,7 +554,7 @@ function App() {
         <TooltipProvider>
           <Helmet>
             <link rel="canonical" href="https://parthpatel-in.vercel.app" />
-            <title>Parth | Full Stack Web Developer Portfolio</title>
+            <title>Parth | Full Stack Mern Developer Portfolio</title>
             <meta
     name="description"
     content="Parth Patel is a Full Stack MERN Developer specializing in React, Node.js, MongoDB."
