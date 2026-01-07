@@ -566,7 +566,7 @@ function App() {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Parth Patel | Full Stack MERN Developer" />
   <meta property="og:description" content="Full Stack MERN Developer Portfolio" />
-  <meta property="og:image" content="https://parthpatel-in.vercel.app/og-image.webp" />
+  <meta property="og:image" content="/og-image.webp" />
    <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og.name" content="parthpatel-in" />
